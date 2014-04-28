@@ -231,6 +231,21 @@ void eightPuzzle::restart()
 
 }
 
+void eightPuzzle::solve()
+{
+	eightPuzzle test = eightPuzzle(puzzle);
+	queue<eightPuzzle> frontier;
+	frontier.push(test);
+	test.print();
+	cout << endl;
+	test.move("up");
+	test.print();
+	cout << endl;
+	test = frontier.front();
+	test.print();
+	cout << endl;
+}
+
 bool eightPuzzle::isSolved()
 {
 	return true;

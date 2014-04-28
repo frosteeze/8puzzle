@@ -3,6 +3,7 @@
 #include <string>
 #include <stdlib.h>
 #include <time.h>
+#include <queue>
 
 using namespace std;
 
@@ -24,6 +25,7 @@ public:
 	bool isOdd();
 	bool check(int n);
 	void pos(int &x, int &y, int pos);
+	void solve();
 	void print();
 	~eightPuzzle();
 };

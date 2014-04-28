@@ -23,7 +23,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	cout << endl;
 	test.isOdd();
 	cout << endl << test.heuristics1();
-	cout << endl << test.heuristics2() << endl;
+	cout << endl << test.heuristics2() << endl << "\n\n\n\n";
+	test.solve();
 	system("pause");
 	return 0;
 }
